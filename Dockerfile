@@ -1,5 +1,7 @@
 FROM ubuntu:20.04
 
+LABEL org.opencontainers.image.source https://github.com/jd84/docker-wireguard
+
 ENV LANG en_US.utf8
 ENV DEBIAN_FRONTEND="noninteractive"
 
